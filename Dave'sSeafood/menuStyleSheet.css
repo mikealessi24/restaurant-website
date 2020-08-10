@@ -1,0 +1,258 @@
+.main-heading {
+  font-size: 30px;
+  text-align: center;
+  font-family: cursive;
+  text-decoration: underline;
+  background-image: url(https://www.gibbesmuseum.org/news/wp-content/uploads/2017/01/15CHARLESTON1-jumbo-NYTimes.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid goldenrod;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 5px;
+  width: 90vw;
+  background-color: rgba(0, 0, 0, 0.945);
+  border-radius: 200px;
+
+  color: white;
+}
+
+.nav-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.full-page-cont {
+  display: flex;
+  flex-direction: column;
+}
+.lunch-cont {
+  border: 2px solid black;
+  width: 80vw;
+  align-self: center;
+  margin: 15px;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.side-cont {
+  border: 2px solid black;
+  width: 80vw;
+  align-self: center;
+  margin: 15px;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.sandwich-cont {
+  border: 2px solid black;
+  width: 80vw;
+  align-self: center;
+  margin: 15px;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.platter-cont {
+  border: 2px solid black;
+  width: 80vw;
+  align-self: center;
+  margin: 15px;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.beverage-cont {
+  border: 2px solid black;
+  width: 80vw;
+  align-self: center;
+  margin: 15px;
+  margin-bottom: 50px;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.main-cont {
+  border: 2px solid black;
+  width: 80vw;
+  align-self: center;
+  margin: 15px;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.background {
+  width: 100vw;
+  border: 5px solid goldenrod;
+  border-radius: 10px;
+  background-color: ivory;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.7);
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h3 {
+  margin-left: 5px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h4 {
+  text-align: center;
+  font-weight: 300;
+}
+
+.platter-text {
+  margin: 0px;
+  font-weight: 300;
+  position: relative;
+  bottom: 20px;
+}
+
+p {
+  font-size: 15px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  bottom: 10px;
+}
+
+a {
+  color: white;
+}
+
+.home-img {
+  height: auto;
+  width: 80vw;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.7);
+}
+
+.image-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bio-img {
+  display: block;
+  width: 60vw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cap-box {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.cap-cont {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  height: 80px;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.contact-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 70vh;
+}
+
+.address-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70px;
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.phone-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 150px;
+  height: 70px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.contact-page {
+  background-image: url(https://thelocalpalate.com/wp-content/uploads/2020/01/Daves-1-900x600.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.contact-head {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: cursive;
+  margin-bottom: 10px;
+  color: ivory;
+}
+
+.contact-text {
+  margin-left: auto;
+  padding: 5px;
+  color: ivory;
+  font-size: 20px;
+}
+
+.hours-page {
+  display: flex;
+  justify-content: center;
+}
+
+.hours-cont {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.hours-header {
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: cursive;
+  margin-bottom: 10px;
+}
+
+.hours-text {
+  margin-bottom: 10px;
+}
